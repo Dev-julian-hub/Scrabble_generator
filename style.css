@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background:#111; color:#eee; margin:20px; }
+h1 { margin-top:0; }
+.row { display:flex; gap:16px; align-items:flex-start; }
+textarea { width:320px; height:170px; padding:10px; border-radius:8px; border:1px solid #444; background:#1c1c1c; color:#eee; margin-top:8px; }
+.panel { min-width:280px; }
+.inlineAdd { display:flex; gap:8px; margin-bottom:8px; }
+.inlineAdd input { flex:1; padding:8px 10px; border-radius:8px; border:1px solid #444; background:#1c1c1c; color:#eee; }
+button { margin-right:8px; margin-bottom:10px; padding:8px 12px; border-radius:8px; border:1px solid #555; background:#242424; color:#eee; cursor:pointer; }
+button:hover { background:#2e2e2e; }
+#stats { color:#b7f2b7; margin:8px 0 14px; white-space:pre-line; }
+#suggestions { margin-top:6px; padding-left:18px; max-height:250px; overflow:auto; }
+.chips { display:flex; flex-wrap:wrap; gap:6px; width:320px; min-height:24px; }
+.chip { background:#00c853; color:#111; padding:4px 8px; border-radius:999px; font-weight:700; font-size:12px; }
+.chip button { margin:0 0 0 6px; padding:0; border:none; background:transparent; color:#111; cursor:pointer; font-weight:900; }
+.grid { margin-top:16px; display:grid; grid-template-columns: repeat(25, 22px); gap:2px; background:#222; padding:8px; border-radius:10px; width:max-content; }
+.cell { width:22px; height:22px; display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; border-radius:4px; }
+.empty { background:#1a1a1a; border:1px solid #2a2a2a; }
+.filled { background:#00c853; color:#0a0a0a; }

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scrabble Konfigurator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Scrabble Konfigurator</h1>
+
+  <div class="row">
+    <div>
+      <div class="inlineAdd">
+        <input id="wordInput" type="text" placeholder="Wort eingeben und Enter…" />
+        <button id="addWordBtn">Hinzufügen</button>
+        <button id="clearBtn">Leeren</button>
+      </div>
+      <div id="wordChips" class="chips"></div>
+      <textarea id="wordsInput" placeholder="Oder mehrere Wörter, eins pro Zeile"></textarea>
+    </div>
+
+    <div class="panel">
+      <button id="buildBtn">Layout bauen</button>
+      <button id="suggestBtn">Wörter vorschlagen</button>
+      <div id="stats"></div>
+      <h3>Vorschläge</h3>
+      <ul id="suggestions"></ul>
+    </div>
+  </div>
+
+  <div id="grid" class="grid"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
